@@ -18,17 +18,20 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetFloat("playerSpeed", value);
         }
     }
-    public float playerJumpPower = 30f;
-    public float maxVelocity = 3f;
+    public bool isAutoMode;
+    public float maxVelocity;
 
     private Rigidbody playerRb;
     private Animator playerAnim;
     private AudioSource playerAudio;
 
+    private float playerJumpPower = 50f;
     private float playerVelocity = 1;
     private float playerScore = 0;
     private bool isJump = false;
-    private bool isDead = false;
+
+    public bool IsDead{ get; set;}
+
     private void Awake()
     {
         if (Instance)
@@ -46,24 +49,21 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (!isDead)
+        if (!IsDead)
         {
             PlayerVelocity += 0.02f * Time.deltaTime;
-            //Debug.Log(PlayerVelocity);
             if (PlayerVelocity > maxVelocity) PlayerVelocity = maxVelocity;
-            playerScore += Time.deltaTime * 10f;
+
+            playerScore += Time.deltaTime * 20f;
+            if(playerScore > 99999) playerScore = 99999;
             PlaySceneManager.Instance.SetScore((int)playerScore);
+            
             if (Input.GetKeyDown(KeyCode.Space))
                 PlayerJump();
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                PlayerPrefs.SetInt("HighScore", 0);
-                PlaySceneManager.Instance.RestartGame();
-            }
         }
     }
 
-    void PlayerJump()
+    public void PlayerJump()
     {
         if (!isJump)
         {
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     void PlayerDead()
     {
-        isDead = true;
+        IsDead = true;
         PlayerVelocity = 0f;
         playerAnim.SetTrigger("isDead");
         PlaySceneManager.Instance.EndGame();
@@ -93,19 +93,17 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider _col)
     {
-        Debug.Log(_col.gameObject.tag);
-        if (_col.gameObject.CompareTag("AutoBox"))
-        {
-            PlayerJump();
-        }
-        else
-        {
-            if (!isDead)
-            {
-                PlaySceneManager.Instance.RestartGame();
+
+        if(isAutoMode){
+            if (_col.gameObject.CompareTag("AutoBox")) PlayerJump();
+            else{
                 PlayerDead();
+                PlaySceneManager.Instance.RestartGame();
             }
+            return;
         }
 
+        if (!IsDead)
+            if (!_col.gameObject.CompareTag("AutoBox")) PlayerDead();
     }
 }
