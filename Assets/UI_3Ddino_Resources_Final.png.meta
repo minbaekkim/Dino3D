@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 20503eda3c0f10e4b8787914aaffe53c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1077222197037512127
+    second: UI_3Ddino_Resources_Final_0
+  - first:
+      213: -3055418104033172393
+    second: UI_3Ddino_Resources_Final_1
+  - first:
+      213: -5421978694399619785
+    second: UI_3Ddino_Resources_Final_2
+  - first:
+      213: 7827696759970078417
+    second: UI_3Ddino_Resources_Final_3
+  - first:
+      213: -2423201427530568384
+    second: UI_3Ddino_Resources_Final_4
+  - first:
+      213: -1942676517051440016
+    second: UI_3Ddino_Resources_Final_5
+  - first:
+      213: 8730079758562249032
+    second: UI_3Ddino_Resources_Final_6
+  - first:
+      213: -1751823414970784963
+    second: UI_3Ddino_Resources_Final_7
+  - first:
+      213: 128783935945889579
+    second: UI_3Ddino_Resources_Final_8
+  - first:
+      213: 4228041105585014581
+    second: UI_3Ddino_Resources_Final_9
+  - first:
+      213: -671572357876794954
+    second: UI_3Ddino_Resources_Final_10
+  - first:
+      213: -3722297026925566288
+    second: UI_3Ddino_Resources_Final_11
+  - first:
+      213: 7190670952517451241
+    second: UI_3Ddino_Resources_Final_12
+  - first:
+      213: -728008172798718164
+    second: UI_3Ddino_Resources_Final_13
+  - first:
+      213: 251813794685257472
+    second: UI_3Ddino_Resources_Final_14
+  - first:
+      213: -4093320567084098248
+    second: UI_3Ddino_Resources_Final_24
+  - first:
+      213: -4191896637040549247
+    second: UI_3Ddino_Resources_Final_25
+  - first:
+      213: -7431915169193608772
+    second: UI_3Ddino_Resources_Final_26
+  - first:
+      213: 4563254332407610181
+    second: UI_3Ddino_Resources_Final_27
+  - first:
+      213: -7329859634300053427
+    second: UI_3Ddino_Resources_Final_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 61
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ac9618e10fc01f0800000000000000
+      internalID: -1077222197037512127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 61
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7542ec43c69f895d0800000000000000
+      internalID: -3055418104033172393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 62
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d0394ba1341c4b0800000000000000
+      internalID: -5421978694399619785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 56
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de1e73fab091ac60800000000000000
+      internalID: 7827696759970078417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d22dce32f0f5ed0800000000000000
+      internalID: -2423201427530568384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 30
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e7af100a3a05e0800000000000000
+      internalID: -1942676517051440016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8494ee55949772970800000000000000
+      internalID: 8730079758562249032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d336479b2e540b7e0800000000000000
+      internalID: -1751823414970784963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d4d2be4889c100800000000000000
+      internalID: 128783935945889579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53705220cf40daa30800000000000000
+      internalID: 4228041105585014581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b938c7af781ea6f0800000000000000
+      internalID: -671572357876794954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6eb99539eb75cc0800000000000000
+      internalID: -3722297026925566288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb58d22256ac360800000000000000
+      internalID: 7190670952517451241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f40ca8c6895e5f0800000000000000
+      internalID: -728008172798718164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 30
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00702c5ef4f9e7300800000000000000
+      internalID: 251813794685257472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 56
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dd62fa1aa9137c0800000000000000
+      internalID: -4093320567084098248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 56
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1822b0ed73463d5c0800000000000000
+      internalID: -4191896637040549247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_26
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 56
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9b06397888cd890800000000000000
+      internalID: -7431915169193608772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_27
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 56
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bfaee53afe35f30800000000000000
+      internalID: 4563254332407610181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_3Ddino_Resources_Final_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3
+        width: 381
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4812147f7b174a90800000000000000
+      internalID: -7329859634300053427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 29d39abdeb27a25428411ec0ad16c6c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
